@@ -1,4 +1,5 @@
 menu = """
+*** Escolha uma das opções abaixo para iniciar as operações ***
 
 [d] Depositar
 [s] Sacar
@@ -60,6 +61,7 @@ while True:
         print("===========================================")
 
     elif opcao == 'q':
+        print('Sua sessão terminou. Caso queira iniciar novamente inicie o sistema.')
         break
 
     else:
